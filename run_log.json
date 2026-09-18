@@ -1,0 +1,321 @@
+{
+ "baseline": 1.0,
+ "after": 1.0,
+ "refused_before": 5,
+ "refused_after": 5,
+ "before": [
+  {
+   "q": "Which pre-trained CNN architecture achieved the highest accuracy on HA",
+   "g": 1.0,
+   "hit": true,
+   "refused": false,
+   "answer": "The highest accuracy on the HAM10000 dermatoscopic dataset was achieved by the ResNet‑50 architecture, reaching 84 % accuracy【2609.11550】."
+  },
+  {
+   "q": "What AUC did pre-trained vision transformers achieve for distinguishin",
+   "g": 1.0,
+   "hit": true,
+   "refused": false,
+   "answer": "The pre‑trained vision transformers attained an AUC of 0.784 for differentiating aggressive basal cell carcinoma subtypes from a single dermatoscopic image, using a dataset of 1,271 images【2609.07180】."
+  },
+  {
+   "q": "Is poor generalization of dermatology AI models to new populations dri",
+   "g": 1.0,
+   "hit": true,
+   "refused": false,
+   "answer": "The study found that the drop in performance was driven primarily by a shift in disease distribution rather than by differences in skin tone; disease‑distribution shift contributed more to the poor generalization than skin‑tone under‑representation【2609.02111】."
+  },
+  {
+   "q": "What sensitivity and specificity did the two-stage fine-tuned ResNet50",
+   "g": 1.0,
+   "hit": true,
+   "refused": false,
+   "answer": "The two‑stage fine‑tuned ResNet‑50 achieved a sensitivity of 87.56 % and a specificity of 89.13 % on its independent test set [2606.17504]."
+  },
+  {
+   "q": "What probability thresholds does the Melanoscope AI system use for its",
+   "g": 1.0,
+   "hit": true,
+   "refused": false,
+   "answer": "The Melanoscope AI system routes patients into three zones using probability cut‑offs of P < 0.15, 0.15 ≤ P < 0.50, and P ≥ 0.50 [2605.27561]."
+  },
+  {
+   "q": "How much did the binary malignant-vs-benign ROC-AUC drop when models t",
+   "g": 1.0,
+   "hit": true,
+   "refused": false,
+   "answer": "The binary malignant‑vs‑benign ROC‑AUC fell from the internal range of 0.952–0.966 to 0.797–0.893 on the Sechenov University clinical set—a drop of roughly 0.06 to 0.17 points【2606.13135】."
+  },
+  {
+   "q": "How many dermatoscopic images and patients are in the clinically verif",
+   "g": 1.0,
+   "hit": true,
+   "refused": false,
+   "answer": "The clinically verified dataset collected with mobile dermatoscopy contains **1,026 unique dermatoscopic images from 443 patients**, and its information model defines **16 structured metadata fields**【2605.25168】."
+  },
+  {
+   "q": "In the study comparing the ABCD rule with machine learning on a 1,000-",
+   "g": 1.0,
+   "hit": true,
+   "refused": false,
+   "answer": "The custom three‑layer CNN attained an accuracy of 78.5 % and a recall of 86.5 % on the median‑filtered images [2601.15539]."
+  },
+  {
+   "q": "How many segmentation masks and dermoscopic images does the ISIC Multi",
+   "g": 1.0,
+   "hit": true,
+   "refused": false,
+   "answer": "The ISIC MultiAnnot++ (IMA++) dataset includes **17,684 segmentation masks** covering **14,967 dermoscopic images**【2512.21472】."
+  },
+  {
+   "q": "Besides classification, what does the DermAI smartphone application pe",
+   "g": 1.0,
+   "hit": true,
+   "refused": false,
+   "answer": "The DermAI app not only classifies lesions but also runs on‑device quality checks of the captured images and adapts the model locally to the new data. [2511.10367]"
+  },
+  {
+   "q": "In the multi-task ABCDE framework trained on HAM10000, what was the me",
+   "g": 1.0,
+   "hit": true,
+   "refused": false,
+   "answer": "The multi‑task framework achieved a melanoma AUC of 0.96, and among the ABCD features, border irregularity was the most difficult to model【2510.14855】."
+  },
+  {
+   "q": "What Dice coefficient and IoU did the SegFormer-with-dropout model ach",
+   "g": 1.0,
+   "hit": true,
+   "refused": false,
+   "answer": "The SegFormer‑with‑dropout model attained an average Dice coefficient of about 0.96 and an IoU of roughly 0.93 for hair‑artifact segmentation in dermoscopic images [2509.02156]."
+  },
+  {
+   "q": "By how much did SAD-DPSGD improve accuracy over Auto-DPSGD on HAM10000",
+   "g": 1.0,
+   "hit": true,
+   "refused": false,
+   "answer": "SAD‑DPSGD increased the classification accuracy on HAM10000 by 2.15 percentage points, and this gain was achieved under a differential‑privacy budget of ε = 3.0 with δ = 10⁻³ [2507.06619]."
+  },
+  {
+   "q": "On the PAD-UFES-20 dataset, for which patient sex did the ResNet-50 sk",
+   "g": 1.0,
+   "hit": true,
+   "refused": false,
+   "answer": "The ResNet‑50 model showed significantly higher accuracy and AUROC for male patients than for female patients on the PAD‑UFES‑20 dataset. [2504.11415]"
+  },
+  {
+   "q": "How many images and participants are in the iToBoS dataset derived fro",
+   "g": 1.0,
+   "hit": true,
+   "refused": false,
+   "answer": "The iToBoS dataset contains **16,954 images** of skin regions collected from **100 participants** [2501.18270]."
+  }
+ ],
+ "after_rows": [
+  {
+   "q": "Which pre-trained CNN architecture achieved the highest accuracy on HA",
+   "g": 1.0,
+   "hit": true,
+   "refused": false,
+   "answer": "The highest accuracy on the HAM10000 dermatoscopic dataset was achieved by the ResNet‑50 architecture, reaching 84 % accuracy【2609.11550】."
+  },
+  {
+   "q": "What AUC did pre-trained vision transformers achieve for distinguishin",
+   "g": 1.0,
+   "hit": true,
+   "refused": false,
+   "answer": "The pre‑trained vision transformers achieved an AUC of 0.784 for distinguishing aggressive basal cell carcinoma subtypes from a single dermatoscopic image, and the study used a dataset of 1,271 dermatoscopic images [2609.07180]."
+  },
+  {
+   "q": "Is poor generalization of dermatology AI models to new populations dri",
+   "g": 1.0,
+   "hit": true,
+   "refused": false,
+   "answer": "The study found that the shift in disease distribution has a larger impact on poor generalization than differences in skin tone; disease‑distribution shift contributed more to the performance drop than the within‑disease skin‑tone gap【2609.02111】."
+  },
+  {
+   "q": "What sensitivity and specificity did the two-stage fine-tuned ResNet50",
+   "g": 1.0,
+   "hit": true,
+   "refused": false,
+   "answer": "The two‑stage fine‑tuned ResNet‑50 attained a sensitivity of 87.56 % and a specificity of 89.13 % on its independent test set [2606.17504]."
+  },
+  {
+   "q": "What probability thresholds does the Melanoscope AI system use for its",
+   "g": 1.0,
+   "hit": true,
+   "refused": false,
+   "answer": "The Melanoscope AI system routes patients into three zones using probability cut‑offs of P < 0.15 for the low‑risk zone, 0.15 ≤ P < 0.50 for the intermediate zone, and P ≥ 0.50 for the high‑risk zone【2605.27561】."
+  },
+  {
+   "q": "How much did the binary malignant-vs-benign ROC-AUC drop when models t",
+   "g": 1.0,
+   "hit": true,
+   "refused": false,
+   "answer": "The binary malignant‑vs‑benign ROC‑AUC fell from the in‑domain range of 0.952 – 0.966 to 0.797 – 0.893 on the Sechenov University clinical dataset, a decrease of roughly 0.10 – 0.17 in absolute terms【2606.13135】."
+  },
+  {
+   "q": "How many dermatoscopic images and patients are in the clinically verif",
+   "g": 1.0,
+   "hit": true,
+   "refused": false,
+   "answer": "The clinically verified dataset contains **1,026 unique dermatoscopic images** collected from **443 patients**, and its information model defines **16 structured metadata fields**【2605.25168】."
+  },
+  {
+   "q": "In the study comparing the ABCD rule with machine learning on a 1,000-",
+   "g": 1.0,
+   "hit": true,
+   "refused": false,
+   "answer": "The custom three‑layer CNN trained from scratch attained an accuracy of **78.5 %** and a recall of **86.5 %** on the median‑filtered images [2601.15539]."
+  },
+  {
+   "q": "How many segmentation masks and dermoscopic images does the ISIC Multi",
+   "g": 1.0,
+   "hit": true,
+   "refused": false,
+   "answer": "The ISIC MultiAnnot++ (IMA++) dataset provides 17,684 segmentation masks covering 14,967 dermoscopic images [2512.21472]."
+  },
+  {
+   "q": "Besides classification, what does the DermAI smartphone application pe",
+   "g": 1.0,
+   "hit": true,
+   "refused": false,
+   "answer": "The DermAI app also runs on‑device quality checks of the captured images (and can adapt the model locally) before classification [2511.10367]."
+  },
+  {
+   "q": "In the multi-task ABCDE framework trained on HAM10000, what was the me",
+   "g": 1.0,
+   "hit": true,
+   "refused": false,
+   "answer": "The multi‑task ABCDE framework achieved a melanoma AUC of 0.96, and among the ABCD features, border irregularity was the most difficult to model【2510.14855】."
+  },
+  {
+   "q": "What Dice coefficient and IoU did the SegFormer-with-dropout model ach",
+   "g": 1.0,
+   "hit": true,
+   "refused": false,
+   "answer": "The SegFormer‑with‑dropout model attained an average Dice coefficient of about 0.96 and an average Intersection‑over‑Union (IoU) of roughly 0.93 for hair‑artifact segmentation in dermoscopic images [2509.02156]."
+  },
+  {
+   "q": "By how much did SAD-DPSGD improve accuracy over Auto-DPSGD on HAM10000",
+   "g": 1.0,
+   "hit": true,
+   "refused": false,
+   "answer": "SAD‑DPSGD increased accuracy on HAM10000 by 2.15 % compared with Auto‑DPSGD, using a privacy budget of ε = 3.0 and δ = 10⁻³【2507.06619】."
+  },
+  {
+   "q": "On the PAD-UFES-20 dataset, for which patient sex did the ResNet-50 sk",
+   "g": 1.0,
+   "hit": true,
+   "refused": false,
+   "answer": "The ResNet‑50 model showed significantly higher accuracy and AUROC for male patients than for female patients on the PAD‑UFES‑20 dataset【2504.11415】."
+  },
+  {
+   "q": "How many images and participants are in the iToBoS dataset derived fro",
+   "g": 1.0,
+   "hit": true,
+   "refused": false,
+   "answer": "The iToBoS dataset contains **16,954 images** of skin regions collected from **100 participants** using 3D total‑body photography【2501.18270】."
+  }
+ ],
+ "gold_ranks": [
+  {
+   "q": "Which pre-trained CNN architecture achieved the highest accuracy on HA",
+   "rank_before": 1,
+   "rank_after": 1
+  },
+  {
+   "q": "What AUC did pre-trained vision transformers achieve for distinguishin",
+   "rank_before": 1,
+   "rank_after": 1
+  },
+  {
+   "q": "Is poor generalization of dermatology AI models to new populations dri",
+   "rank_before": 1,
+   "rank_after": 1
+  },
+  {
+   "q": "What sensitivity and specificity did the two-stage fine-tuned ResNet50",
+   "rank_before": 1,
+   "rank_after": 1
+  },
+  {
+   "q": "What probability thresholds does the Melanoscope AI system use for its",
+   "rank_before": 1,
+   "rank_after": 1
+  },
+  {
+   "q": "How much did the binary malignant-vs-benign ROC-AUC drop when models t",
+   "rank_before": 2,
+   "rank_after": 2
+  },
+  {
+   "q": "How many dermatoscopic images and patients are in the clinically verif",
+   "rank_before": 1,
+   "rank_after": 1
+  },
+  {
+   "q": "In the study comparing the ABCD rule with machine learning on a 1,000-",
+   "rank_before": 2,
+   "rank_after": 1
+  },
+  {
+   "q": "How many segmentation masks and dermoscopic images does the ISIC Multi",
+   "rank_before": 1,
+   "rank_after": 1
+  },
+  {
+   "q": "Besides classification, what does the DermAI smartphone application pe",
+   "rank_before": 1,
+   "rank_after": 1
+  },
+  {
+   "q": "In the multi-task ABCDE framework trained on HAM10000, what was the me",
+   "rank_before": 1,
+   "rank_after": 1
+  },
+  {
+   "q": "What Dice coefficient and IoU did the SegFormer-with-dropout model ach",
+   "rank_before": 1,
+   "rank_after": 1
+  },
+  {
+   "q": "By how much did SAD-DPSGD improve accuracy over Auto-DPSGD on HAM10000",
+   "rank_before": 1,
+   "rank_after": 1
+  },
+  {
+   "q": "On the PAD-UFES-20 dataset, for which patient sex did the ResNet-50 sk",
+   "rank_before": 1,
+   "rank_after": 1
+  },
+  {
+   "q": "How many images and participants are in the iToBoS dataset derived fro",
+   "rank_before": 1,
+   "rank_after": 1
+  }
+ ],
+ "top_score_in": [
+  6.2260003089904785,
+  5.712590217590332,
+  6.989454746246338,
+  6.678061485290527,
+  4.887740612030029,
+  1.6032750606536865,
+  7.250161647796631,
+  4.2922234535217285,
+  8.120077133178711,
+  5.99788761138916,
+  4.661959648132324,
+  7.218471527099609,
+  3.4510722160339355,
+  5.655914306640625,
+  8.403726577758789
+ ],
+ "top_score_out": [
+  -7.597094535827637,
+  1.7135422229766846,
+  -8.922541618347168,
+  2.4223973751068115,
+  -2.212507724761963
+ ]
+}
